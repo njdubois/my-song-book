@@ -1,15 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 // import './App.css';
 
-class Layout extends Component {
+import Nav from "./Nav";
+
+import trackDetails from "../trackDetailsJson";
+
+export default class Layout extends Component {
+  
+  constructor(props) {
+    super(props);
+    this.state = {
+      trackDetails: trackDetails
+    };
+  }
+
   render() {
+    const { location } = this.props;
+
     return (
       <div>
-            Hello World
+        <Nav trackDetails={this.state.trackDetails}/>
+
+        <div>
+
+        </div>
       </div>
     );
   }
 }
-
-export default App;

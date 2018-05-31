@@ -1,0 +1,47 @@
+/* general */
+
+
+.hidden {
+    display:none;
+}
+
+
+
+
+
+/* Nav Style */
+
+.navParent {
+    /* background-color:grey; */
+}
+
+.navMenuContainer {
+
+}
+
+.albumList {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+.albumListItem {
+    cursor:pointer;
+}
+
+.albumListItem:hover {
+    text-decoration: underline;
+    color:blue;
+}
+
+.albumListItemTitle {
+
+}
+
+.albumListItemTrackList {
+
+}
+
+.albumListItemTrackListItem {
+
+}
